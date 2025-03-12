@@ -1,63 +1,61 @@
-body{
+body {
     background-color: #3E3E3E;
 }
 
-p{
+p {
     color: #B9AFAF;
     margin-top: 20px;
 }
 
 /* Content 1 - Name */
-
 .content-1 h1 {
     margin-top: 100px;
     color: #B9AFAF;
     font-size: 60pt;
-    font-family: oswald;
+    font-family: 'Oswald', sans-serif;
 }
 
 .content-1 .name {
     margin-bottom: -80px;
 }
 
-.content-1 h2{
+.content-1 h2 {
     color: #B9AFAF;
     font-size: 60pt;
-    font-family: oswald;
+    font-family: 'Oswald', sans-serif;
     margin-top: 100px;
 }
 
-.content-1 button{
+.content-1 button {
     margin-top: 20px;
     border-radius: 10px;
 }
 
-.content-1 .line-vertical{
+.content-1 .line-vertical {
     background-color: #B9AFAF;
     width: 3px;
     height: 100px;
     margin-left: 50px;
 }
 
-.content-1 .logo{
+.content-1 .logo {
     color: #B9AFAF;
     margin-left: 43px;
     margin-bottom: 20px;
 }
-/* End Content 1 - Name */
 
-/*  */
+/* Content 2 - About Me */
 .content-2 {
-    color: #B9AFAF ;
+    color: #B9AFAF;
 }
 
 .content-2 h2 {
-    font-family: oswald;
+    font-family: 'Oswald', sans-serif;
     display: inline;
 }
 
 /* Desktop */
-@media (min-width:992px){
+@media (min-width: 992px) {
     .content-1 {
         margin-left: 80px;
         margin-right: 80px;
@@ -72,10 +70,9 @@ p{
         font-size: 40pt;
     }
 
-    p{
+    p {
         font-size: 14pt;
     }
-    /* Content 2 - About Me */
 
     .content-2 .line {
         margin-top: 30px;
@@ -84,7 +81,7 @@ p{
         height: 5px;
         background-color: #B9AFAF;
     }
-    
+
     .content-2 img {
         margin-left: 50px;
         margin-top: -50px;
@@ -92,7 +89,7 @@ p{
         height: 400px;
     }
 
-    .content-2 p{
+    .content-2 p {
         max-width: 700px;
     }
 
@@ -100,22 +97,19 @@ p{
         font-size: 18px;
     }
 
-    /* End Content 2 - About Me */
-
-    /* Content 3 - Project */
-    .content-3{
-        color: #B9AFAF ;
+    .content-3 {
+        color: #B9AFAF;
         margin-top: 200px;
         margin-left: 80px;
     }
 
-    .content-3 h2{
-        font-family: oswald;
+    .content-3 h2 {
+        font-family: 'Oswald', sans-serif;
         font-size: 40pt;
         margin-right: 0;
     }
 
-    .content-3 .line{
+    .content-3 .line {
         margin-top: 35px;
         margin-right: 20px;
         width: 433px;
@@ -123,7 +117,7 @@ p{
         background-color: #B9AFAF;
     }
 
-    .content-3 .line-2{
+    .content-3 .line-2 {
         margin-top: 10px;
         margin-right: 20px;
         width: 350px;
@@ -131,7 +125,7 @@ p{
         background-color: #B9AFAF;
     }
 
-    .content-3 img{
+    .content-3 img {
         margin-top: 50px;
         width: 450px;
         height: 600px;
@@ -141,53 +135,50 @@ p{
         font-size: 16px;
     }
 
-    .content-3 .container{
-        margin-top: 200px;
-        margin-left: 80px;
-    }
-    /* End Content 3 */
-
-    /* Content 4 */
-    .content-4{
-        color: #B9AFAF ;
+    .content-3 .container {
         margin-top: 200px;
         margin-left: 80px;
     }
 
-    .content-4 h2{
-        font-family: oswald;
+    .content-4 {
+        color: #B9AFAF;
+        margin-top: 200px;
+        margin-left: 80px;
+    }
+
+    .content-4 h2 {
+        font-family: 'Oswald', sans-serif;
         font-size: 40pt;
         margin-right: 0;
     }
 
-    .content-4 .line{
+    .content-4 .line {
         width: 350px;
         height: 3px;
         background-color: #B9AFAF;
     }
 
-    .content-4 .text{
+    .content-4 .text {
         margin-top: 200px;
     }
 
     .content-4 li {
         font-size: 16px;
     }
-    /* End Content-4 */
 
-    /* Content-5 */
-    .content-5{
-        color: #B9AFAF ;
+    .content-5 {
+        color: #B9AFAF;
         margin-top: 200px;
         margin-left: 80px;
     }
 
-    .content-5 h2{
-        font-family: oswald;
+    .content-5 h2 {
+        font-family: 'Oswald', sans-serif;
         font-size: 40pt;
         margin-right: 0;
     }
-    .content-5 .line{
+
+    .content-5 .line {
         margin-top: 10px;
         width: 480px;
         height: 3px;
@@ -200,8 +191,8 @@ p{
 }
 
 /* Tablet */
-@media (min-width:768px){
-    /* .content-1 h2{
+@media (min-width: 768px) {
+    .content-1 h2 {
         font-size: 30pt;
         text-align: center;
         margin-bottom: 40px;
@@ -213,27 +204,27 @@ p{
         width: 215px;
         height: 5px;
         background-color: #B9AFAF;
-    } */
-    
+    }
 }
 
 /* Mobile */
-@media (max-width:600px){
+@media (max-width: 600px) {
     .content-1 h1 {
         font-size: 30pt;
         margin-left: 20px;
     }
-    .content-1 h2{
+
+    .content-1 h2 {
         font-size: 30pt;
         text-align: center;
     }
 
-    .content-1 p{
+    .content-1 p {
         font-size: 12pt;
         margin-left: 20px;
     }
 
-    .content-1 a{
+    .content-1 a {
         margin-left: 20px;
     }
 
@@ -253,31 +244,31 @@ p{
         height: 5px;
         background-color: #B9AFAF;
     }
-    
+
     .content-2 img {
         margin-top: 20px;
         width: 120px;
         height: 160px;
     }
 
-    .content-3{
-        color: #B9AFAF ;
+    .content-3 {
+        color: #B9AFAF;
         margin-top: 100px;
     }
 
-    .content-3 h2{
-        font-family: oswald;
+    .content-3 h2 {
+        font-family: 'Oswald', sans-serif;
         font-size: 20pt;
     }
 
-    .content-3 .line{
+    .content-3 .line {
         margin-top: 15px;
         width: 150px;
         height: 5px;
         background-color: #B9AFAF;
     }
 
-    .content-3 .line-2{
+    .content-3 .line-2 {
         margin-top: 10px;
         margin-right: 20px;
         width: 150px;
@@ -285,7 +276,7 @@ p{
         background-color: #B9AFAF;
     }
 
-    .content-3 img{
+    .content-3 img {
         margin-top: 50px;
     }
 
@@ -293,30 +284,28 @@ p{
         font-size: 16px;
     }
 
-    .content-3 .container{
+    .content-3 .container {
         margin-top: 20px;
     }
-    /* End Content 3 */
 
-    /* Content 4 */
-    .content-4{
-        color: #B9AFAF ;
+    .content-4 {
+        color: #B9AFAF;
         margin-top: 50px;
         margin-left: 20px;
     }
 
-    .content-4 h2{
-        font-family: oswald;
+    .content-4 h2 {
+        font-family: 'Oswald', sans-serif;
         font-size: 20pt;
     }
 
-    .content-4 .line{
+    .content-4 .line {
         width: 150px;
         height: 3px;
         background-color: #B9AFAF;
     }
 
-    .content-4 .text{
+    .content-4 .text {
         margin-top: 20px;
     }
 
@@ -324,23 +313,22 @@ p{
         font-size: 16px;
     }
 
-    .content-4 img{
+    .content-4 img {
         margin-left: -10px;
     }
-    /* End Content-4 */
-    
-    /* Content-5 */
-    .content-5{
-        color: #B9AFAF ;
+
+    .content-5 {
+        color: #B9AFAF;
         margin-top: 100px;
         margin-left: 20px;
     }
 
-    .content-5 h2{
-        font-family: oswald;
+    .content-5 h2 {
+        font-family: 'Oswald', sans-serif;
         font-size: 20pt;
     }
-    .content-5 .line{
+
+    .content-5 .line {
         margin-top: 10px;
         width: 170px;
         height: 3px;
@@ -350,4 +338,30 @@ p{
     .content-5 li {
         font-size: 16px;
     }
+}
+
+.footer {
+    background-color: #3e3e3e;
+    color: #B9AFAF;
+}
+
+.footer a {
+    color: #FFD700;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #FFA500;
+}
+
+.footer .text-uppercase {
+    font-family: 'Oswald', sans-serif;
+}
+
+.footer .fab, .footer .fas {
+    font-size: 1.5rem;
+}
+
+.footer .fab:hover, .footer .fas:hover {
+    color: #FFA500;
 }
